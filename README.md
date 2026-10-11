@@ -107,6 +107,12 @@ jai tests/run.jai
 
 The tests check the results and require zero allocations. They run at compile time and produce no executable.
 
+## Future
+Some things I'd like to add in the future:
+- Validation
+- Proper filesystem support
+- Better handling of cross platform stuff
+
 ## Inspiration
 
 The algorithm has in Glob uses retry positions with no recursion or allocated state table. Ideas are  borrowed from [fast-glob](https://github.com/oxc-project/fast-glob/blob/main/src/lib.rs).
